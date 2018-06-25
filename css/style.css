@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    transition: background .3s;
+    color: black;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.clear {
+    clear: both;
+}
+.activePage {
+    background: gray;
+}
+
+/* header block */
+.header {
+    border-bottom: 2px solid #acacac;
+}
+.wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 50px 100px;
+}
+.headerBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* logo block */
+.logo h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+.logo h1 span {
+    display: block;
+    font-weight: 400;
+}
+.logo .info p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.logo .info p:last-child {
+    margin-right: 0;
+}
+
+.logo .info span {
+    font-weight: normal;
+}
+
+/* menu block */
+.menu li {
+    display: inline-block;
+}
+.menu ul li a {
+    display: block;
+    padding: 5px 10px;
+}
+
+.menu ul li a:hover {
+    background: gray;
+}
+/*main block*/
+.main .photo {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 20px;
+}
+
+/* footer block*/
+.footer {
+    border-top: 2px solid #acacac;
+    text-align: center;
+}
