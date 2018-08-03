@@ -36,9 +36,10 @@ img {
     border-bottom: 2px solid #acacac;
 }
 .wrapper {
-    max-width: 1366px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 50px 100px;
+
 }
 .headerBlock {
     display: flex;
@@ -93,8 +94,6 @@ img {
     margin-bottom: 20px;
     float: left;
     margin-right: 20px;
-    background-position: 50% 50%;
-    background-size: cover;
 }
 
 /* footer block*/
@@ -120,6 +119,13 @@ img {
 
 .footer_wrapper {
     color: #29dce6;
+}
+
+.test {
+    width: 80%;
+    background-color: rgba(252, 252, 252, 40%);
+
+
 }
 
 
