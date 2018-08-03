@@ -129,7 +129,31 @@ img {
 }
 
 
+a.button {
+/* background colors */
+background-color: #2576e8;
 
+/* Border Radius */
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
 
+/* Width of button */
+width: 130px ;
 
+/* Font style of button */
+color: white;
+font-size: 14px;
+text-align: center;
+font-weight: normal;
+line-height: 14px;
+overflow: hidden;
+display: inline-block;
+text-decoration: none;
+padding: 10px 0px;
+}
+
+a:hover.button {
+background-color: #6fa0e7;
+}
 

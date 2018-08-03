@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+.wrapper {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 50px;
+  background: blue; }
+
+.productsItem {
+  padding: 20px; }
+  .productsItem__img {
+    width: 200px;
+    height: 400px; }
+  .productsItem__btn {
+    width: 100px;
+    padding: 20px;
+    background: red;
+    color: white; }
+    .productsItem__btn-unactive {
+      background: grey; }

@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height:auto;
+}
+body {
+}
+
+.wrapper {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 50px;
+  background: blue
+}
+
+.productsItem {
+  padding: 20px;
+  &__img {
+    width: 200px;
+    height: 400px;
+  } // __img
+  &__desc {
+  } // __desc
+  &__btn {
+    width: 100px;
+    padding: 20px;
+    background: red;
+    color:white;
+    &-unactive {
+      background: grey;
+    } // -unactive
+  } // __btn
+} // productsItem

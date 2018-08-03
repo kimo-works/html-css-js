@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.header {
+    /*padding: 50px;*/
+    border-bottom: 2px solid black;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+}
+.logo h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+}
+
+.logo h1 span {
+    font-weight: normal;
+    display: block;
+}
+
+.data p{
+    display: inline-block;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    padding: 15px 20px;
+    white-space: nowrap;
+}
+
+.menu ul li a:hover{
+    background: grey;
+}
+
+.burger-menu {
+    display: none;
+}
+.burger-menu span {
+    display: block;
+    width: 20px;
+    height: 5px;
+    background: black;
+    margin-bottom: 5px;
+}
+
+.photo {
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.about-me p {
+    text-align: justify;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    text-align: center;
+}
+
+.active-page {
+    background: grey;
+}
+
+@media only screen and ( max-width: 860px ) {
+    .menu ul {
+        display: none;
+    }
+    .burger-menu {
+        display: block;
+    }
+}
+
+@media only screen and ( max-width: 430px ) {
+    .logo h1 {
+        font-size: 24px;
+    }
+}
